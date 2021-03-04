@@ -260,7 +260,7 @@ class BrailleHandler
         // De geformateerde braille string
         $braille = '';
 
-        if (empty($character)) {
+        if (empty($character) && $character!="0") {
             return $braille;
         }
 
